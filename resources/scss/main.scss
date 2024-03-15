@@ -1,0 +1,80 @@
+@use "./partials/variables" as *;
+
+header {
+    .aside-wrapper {
+        background-color: $primary-col;
+        font-size: 0.8rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: white;
+
+        .aside {
+            text-align: end;
+
+            * {
+                margin-left: 45px;
+            }
+
+            select {
+                background-color: transparent;
+                color: inherit;
+                border: none;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .content-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 115px;
+
+        figure {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 80px;
+            }
+        }
+
+        nav {
+            height: 100%;
+
+            ul {
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                li {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    &.active {
+                        box-shadow: inset 0px -6px 0 blue;
+                    }
+
+                    .link {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    height: 400px;
+    img {
+        object-fit: cover;
+        object-position: top;
+        width: 100%;
+    }
+}

@@ -5,7 +5,12 @@ const path = require("path");
 export default defineConfig({
     plugins: [
         laravel({
-            input: ["resources/scss/app.scss", "resources/js/app.js"],
+            input: [
+                "resources/scss/app.scss",
+                "resources/scss/comics.scss",
+                "resources/scss/main.scss",
+                "resources/js/app.js",
+            ],
             refresh: true,
         }),
     ],

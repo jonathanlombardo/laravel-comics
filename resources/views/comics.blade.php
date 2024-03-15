@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('asset')
+@vite('resources/scss/comics.scss')
+@endsection
+
 
 @section('maincontent')
 
