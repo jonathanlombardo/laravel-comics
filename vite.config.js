@@ -8,6 +8,7 @@ export default defineConfig({
             input: [
                 "resources/scss/app.scss",
                 "resources/scss/comics.scss",
+                "resources/scss/comic-details.scss",
                 "resources/scss/main.scss",
                 "resources/js/app.js",
             ],
