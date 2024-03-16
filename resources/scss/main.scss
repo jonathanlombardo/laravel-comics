@@ -78,3 +78,81 @@ header {
         width: 100%;
     }
 }
+
+footer {
+    .footer-main {
+        background-image: url("../img/footer-bg.jpg");
+        background-size: cover;
+
+        color: #b4b4b4;
+        overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .link-wrapper {
+            position: relative;
+            .nav-wrapper {
+                display: flex;
+                gap: 20px;
+
+                ul {
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+
+                    li {
+                        font-size: 0.8em;
+                        a:hover {
+                            color: $primary-col;
+                        }
+                    }
+                }
+
+                .title {
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: white;
+                }
+            }
+
+            .copyright {
+                max-width: 50%;
+                font-size: 0.8em;
+                a {
+                    color: $primary-col;
+                }
+            }
+
+            img {
+                position: absolute;
+                right: 0;
+                bottom: 50%;
+                transform: translateY(50%);
+
+                max-width: 50%;
+                max-height: none;
+            }
+        }
+    }
+
+    .footer-aside {
+        background-color: #303030;
+        padding: 40px;
+
+        button {
+            font-size: 1.2em;
+            background-color: transparent;
+            border: 2px solid $primary-col;
+            color: white;
+
+            padding: 5px 15px;
+        }
+
+        ul {
+            font-size: 1.5em;
+            color: $primary-col;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
