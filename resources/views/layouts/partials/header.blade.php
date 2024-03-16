@@ -53,9 +53,11 @@
                     </li>
                 </ul>
             </nav>
-            <div class="search-wrapper">
-                <input type="text" placeholder="SEARCH">
-                <span>X</span>
+            <div class="input-group header-search">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-text" id="basic-addon2">
+                <img src="{{Vite::asset('resources/img/magnifying-glass-solid.svg')}}" alt="">
+              </span>
             </div>
         </div>
     </div>

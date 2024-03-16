@@ -67,6 +67,32 @@ header {
                 }
             }
         }
+
+        .input-group.header-search {
+            width: 13%;
+
+            &:focus,
+            &:focus-visible,
+            input:focus,
+            input:focus-visible {
+                outline: none;
+                box-shadow: none;
+            }
+
+            input,
+            span {
+                border: none;
+                border-bottom: 1px solid $primary-col;
+                border-radius: 0;
+                background-color: transparent;
+                padding-left: 0;
+
+                img {
+                    width: 1rem;
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
 
