@@ -45,30 +45,22 @@
       <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="digital comics icon">
       <span class="desc">digital comics</span>
     </a>
-
     <a>
       <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="merchandise icon">
       <span class="desc">dc merchandise</span>
     </a>
-
     <a>
       <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="subscription icon">
       <span class="desc">subscription</span>
     </a>
-
     <a>
       <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="shop locator icon">
       <span class="desc">comic shop locator</span>
     </a>
-
     <a>
       <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="power visa icon">
       <span class="desc">dc power visa</span>
     </a>
-
-
-
-
   </section>
 
 </main>

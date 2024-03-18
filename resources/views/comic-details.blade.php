@@ -12,7 +12,7 @@
   </div>
 </div>
 
-<div class="container small pt-5">
+<div class="container small py-5">
   <div class="row g-5">
     <div class="col-9 col-content">
       <h2>{{ $comic["title"]}}</h2>
@@ -36,11 +36,58 @@
   </div>
 </div>
 
-<section class="details">
+<section class="details py-5">
   <div class="container small">
-  <div class="row">
-    <div class="col-6">talent</div>
-    <div class="col-6">specs</div>
+  <div class="row g-5">
+    <div class="col-6">
+      <div class="detail-title">Talent</div>
+      <ul class="detail-list">
+        <li>
+          <span>Art By</span>
+          <p>
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>
+          </p>
+        </li>
+        <li>
+          <span>Written By</span>
+          <p>
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>,
+            <a href="#">autori vari</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-6">
+    <div class="detail-title">Specs</div>
+      <ul class="detail-list">
+        <li>
+          <span>Series</span>
+          <p><a href="#">{{$comic["series"]}}</a></p>
+        </li>
+        <li>
+          <span>US Price</span>
+          <p>{{$comic["price"]}}</p>
+        </li>
+        <li>
+          <span>On Sale Date</span>
+          <p>{{$comic["sale_date"]}}</p>
+        </li>
+      </ul>
+    </div>
   </div>
   </div>
 </section>
