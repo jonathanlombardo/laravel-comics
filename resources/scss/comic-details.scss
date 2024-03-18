@@ -20,6 +20,9 @@
 }
 
 .col-content {
+    h2 {
+        color: $primary-text;
+    }
     .info-wrapper {
         display: flex;
         background-color: #55ba59;
@@ -72,5 +75,35 @@
 
 section.details {
     background-color: #f6f6f6;
-    min-height: 100px;
+    color: $primary-text;
+
+    a {
+        color: $primary-col;
+
+        &:hover {
+            filter: brightness(0.5);
+        }
+    }
+
+    .detail-title {
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .detail-list > li {
+        border-bottom: 1px solid rgb(204, 204, 204);
+        display: flex;
+        padding: 10px 0;
+        font-size: 0.8rem;
+
+        > *:first-child {
+            width: 30%;
+        }
+
+        > *:last-child {
+            width: 70%;
+        }
+    }
 }
